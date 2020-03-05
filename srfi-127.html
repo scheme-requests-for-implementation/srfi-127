@@ -18,7 +18,7 @@ John Cowan
 
 <h1>Status</h1>
 
-<p>This SRFI is currently in <em>final</em> status. Here is <a href="http://srfi.schemers.org/srfi-process.html">an explanation</a> of each status that a SRFI can hold.  To provide input on this SRFI, please send email to <code><a href="mailto:srfi minus 127 at srfi dotschemers dot org">srfi-127@<span class="antispam">nospam</span>srfi.schemers.org</a></code>.  To subscribe to the list, follow <a href="http://srfi.schemers.org/srfi-list-subscribe.html">these instructions</a>.  You can access previous messages via the mailing list <a href="http://srfi-email.schemers.org/srfi-127">archive</a>.</p>
+<p>This SRFI is currently in <em>final</em> status. Here is <a href="https://srfi.schemers.org/srfi-process.html">an explanation</a> of each status that a SRFI can hold.  To provide input on this SRFI, please send email to <code><a href="mailto:srfi minus 127 at srfi dotschemers dot org">srfi-127@<span class="antispam">nospam</span>srfi.schemers.org</a></code>.  To subscribe to the list, follow <a href="http://srfi.schemers.org/srfi-list-subscribe.html">these instructions</a>.  You can access previous messages via the mailing list <a href="https://srfi-email.schemers.org/srfi-127">archive</a>.</p>
 <ul>
 <li>Received: 2015-10-20</li>
 <li>60-day deadline: 2015-12-19</li>
@@ -37,7 +37,7 @@ John Cowan
 Lazy sequences (or lseqs, pronounced "ell-seeks") are a generalization of lists.
 In particular, an lseq is either a proper list or a dotted list
 whose last cdr is
-a <a href="http://srfi.schemers.org/srfi-121/srfi-121.html">SRFI 121</a> generator.
+a <a href="https://srfi.schemers.org/srfi-121/srfi-121.html">SRFI 121</a> generator.
 A generator is a procedure that can be invoked with no arguments
 in order to lazily supply additional elements of the lseq.
 When a generator has no more elements to return, it returns an
@@ -45,7 +45,7 @@ end-of-file object.  Consequently, lazy sequences cannot reliably contain
 end-of-file objects.</p>
 <p>This SRFI provides a set of procedures
 suitable for operating on lazy sequences based
-on <a href="http://srfi.schemers.org/srfi-1/srfi-1.html">SRFI 1</a>.</p>
+on <a href="https://srfi.schemers.org/srfi-1/srfi-1.html">SRFI 1</a>.</p>
 
 <h1>Issues</h1>
 
@@ -54,7 +54,7 @@ None at present.
 <h1><a name="Rationale">Rationale</a></h1>
 <p>Lazy sequences are more heavyweight than generators, on which they
 are based, but they are more lightweight
-than <a href="http://srfi.schemers.org/srfi-41/srfi-41.html">SRFI 41</a> streams.
+than <a href="https://srfi.schemers.org/srfi-41/srfi-41.html">SRFI 41</a> streams.
 However, streams are <i>even</i>, as explained in the SRFI 41 rationale;
 that is, the initial state of a stream does not have any elements that
 have already been realized.  By contrast, lazy sequences are <i>odd</i>,
@@ -597,7 +597,7 @@ satisfy the predicate <var>pred</var>, and returns the rest of the lseq.</p>
 </ul>
 <h1><a name="Acknowledgements">Acknowledgements</a></h1>
 <p>
-Without the work of Olin Shivers on <a href="http://srfi.schemers.org/srfi-1/srfi-1.html">SRFI 1</a>,
+Without the work of Olin Shivers on <a href="https://srfi.schemers.org/srfi-1/srfi-1.html">SRFI 1</a>,
 this SRFI would not exist. Everyone acknowledged there is transitively acknowledged here.
 This is not to imply that either Olin or anyone else necessarily endorses the final
 results, of course.</p>
